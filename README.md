@@ -18,7 +18,7 @@ Built with Next.js and TypeScript, this Healthcare Patient Management System is 
 
 **Patient Features**
 
-**User Registration & Profile Management **: Patients can sign up and manage their profiles.
+**User Registration & Profile Management**: Patients can sign up and manage their profiles.
 
 **Appointment Booking**: Book appointments with doctors at preferred time slots.
 
