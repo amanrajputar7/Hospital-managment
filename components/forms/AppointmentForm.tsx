@@ -101,6 +101,7 @@ export const AppointmentForm = ({
             cancellationReason: values.cancellationReason,
           },
           type,
+          timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone // Add timeZone property to fix the type error
         };
 
         const updatedAppointment = await updateAppointment(appointmentToUpdate);
