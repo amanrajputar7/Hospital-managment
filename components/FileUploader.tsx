@@ -1,7 +1,9 @@
 "use client";
+
 import Image from "next/image";
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
+
 import { convertFileToUrl } from "@/lib/utils";
 
 type FileUploaderProps = {
@@ -11,9 +13,9 @@ type FileUploaderProps = {
   accept?: string[];
 };
 
-export const FileUploader = ({ 
-  files, 
-  onChange, 
+export const FileUploader = ({
+  files,
+  onChange,
   maxSize = 800 * 400, // Default max size (800x400px)
   accept = ['image/png', 'image/gif', 'image/jpeg', 'image/jpg', 'image/svg+xml'] // Default accepted types
 }: FileUploaderProps) => {
@@ -32,23 +34,23 @@ export const FileUploader = ({
   });
 
   return (
-    <div 
-      {...getRootProps()} 
-      className="file-upload cursor-pointer border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-gray-400 transition-colors"
+    <div
+      {...getRootProps()}
+      className="file-upload cursor-pointer rounded-lg border-2 border-dashed border-gray-300 p-6 text-center transition-colors hover:border-gray-400"
     >
       <input {...getInputProps()} />
       
       {files && files.length > 0 ? (
-        <div className="relative w-full h-full">
+        <div className="relative h-full w-full">
           <Image
             src={convertFileToUrl(files[0])}
             width={1000}
             height={1000}
             alt="Uploaded preview"
-            className="max-h-[400px] w-full object-contain rounded-md"
+            className="max-h-[400px] w-full rounded-md object-contain"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-            <p className="text-white font-medium">Click to replace</p>
+          <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition-opacity hover:opacity-100">
+            <p className="font-medium text-white">Click to replace</p>
           </div>
         </div>
       ) : (
