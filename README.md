@@ -3,7 +3,7 @@
 
 ## Description
 
-Built with Next.js and TypeScript, this Healthcare Patient Management System is a modern web application that enables patients to book appointments with doctors and provides administrators with tools to manage appointments efficiently. The system includes features like SMS notifications, file uploads, and performance monitoring.
+Built with Next.js and TypeScript, this Hospital Patient Management System is a modern web application that enables patients to book appointments with doctors and provides administrators with tools to manage appointments efficiently. The system includes features like SMS notifications, file uploads, and performance monitoring.
 
 ## Tech Stack
 
@@ -18,9 +18,9 @@ Built with Next.js and TypeScript, this Healthcare Patient Management System is 
 
 **Patient Features**
 
-**User Registration & Profile Management**: Patients can sign up and manage their profiles.
+- **User Registration & Profile Management**: Patients can sign up and manage their profiles.
 
-**Appointment Booking**: Book appointments with doctors at preferred time slots.
+- **Appointment Booking**: Book appointments with doctors at preferred time slots.
 
 **Multiple Appointments**: Patients can schedule multiple appointments.
 
