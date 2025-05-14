@@ -22,29 +22,27 @@ Built with Next.js and TypeScript, this Hospital Patient Management System is a 
 
 - **Appointment Booking**: Book appointments with doctors at preferred time slots.
 
-**Multiple Appointments**: Patients can schedule multiple appointments.
+- **Multiple Appointments**: Patients can schedule multiple appointments.
 
-**File Uploads**: Securely upload medical documents using Appwrite Storage.
+- **File Uploads**: Securely upload medical documents using Appwrite Storage.
 
 **Admin Features**
 
-**Appointment Management**: View, confirm, and cancel appointments.
+- **Appointment Management**: View, confirm, and cancel appointments.
 
-**SMS Notifications**: Automatically send SMS confirmations via Twilio.
+- **SMS Notifications**: Automatically send SMS confirmations via Twilio.
 
-**Admin Dashboard**: Manage all appointments and patient records efficiently.
+- **Admin Dashboard**: Manage all appointments and patient records efficiently.
 
 **System Features**
 
-**Performance Monitoring**: Track errors and performance with Sentry.
+- **Performance Monitoring**: Track errors and performance with Sentry.
 
-**Responsive Design**: Works seamlessly on all devices (mobile, tablet, desktop).
+- **Responsive Design**: Works seamlessly on all devices (mobile, tablet, desktop).
 
-**Secure Authentication** Built with Appwrite Auth for secure login.
+- **Secure Authentication** Built with Appwrite Auth for secure login.
 
-**Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
-
-and many more, including code architecture and reusability. 
+**Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions. and many more, including code architecture and reusability. 
 
 ## Quick Start
 
